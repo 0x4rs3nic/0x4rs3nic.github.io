@@ -131,7 +131,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 </div>
 {% endraw %}
 
-{% raw %}
+
 {% highlight markdown %}
   <div class="gallery-box">
     <div class="gallery">
@@ -150,7 +150,6 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
     <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
   </div>
 {% endhighlight %}
-{% endraw %}
 
 ![]({{site.baseurl}}/images/140.jpg)
 *Minimalism*
