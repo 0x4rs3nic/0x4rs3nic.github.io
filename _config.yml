@@ -83,7 +83,7 @@ defaults:
 collections:
   cheatsheets:
     output: true
-    permalink: /cheatsheets/:path/
+    permalink: /_cheatsheets/:path/
 
 include:
   - _pages
