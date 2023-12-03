@@ -3,7 +3,7 @@ layout: post
 title:  Visual htb
 description: 
 date:   2018-04-21 15:01:35 +0300
-image:  '/images/20.jpg'
+image:  'https://velog.velcdn.com/images/jjs9366/post/d8ec9c35-68b5-4bf5-998a-c67968412380/image.png'
 tags:   [Writeup, HTB]
 ---
 
