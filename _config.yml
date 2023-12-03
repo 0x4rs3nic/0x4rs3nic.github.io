@@ -66,7 +66,16 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
-
+	- jekyll-toc
+	
+# TOC Settings
+toc:
+ min_level: 1
+ max_level: 3
+ list_class: toc
+ list_class: toc__list
+ sublist_class: toc__sublist
+ 
 kramdown:
   parse_block_html: true
 
@@ -79,6 +88,7 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+      toc: true
 
 collections:
   cheatsheets:
