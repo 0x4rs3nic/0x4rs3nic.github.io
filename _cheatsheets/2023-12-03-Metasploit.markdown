@@ -1,5 +1,5 @@
 ---
-layout: cheatsheet
+layout: post
 title:  Metasploit
 description: 
 date:   2018-04-21 15:01:35 +0300
