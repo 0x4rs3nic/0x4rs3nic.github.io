@@ -80,6 +80,11 @@ defaults:
     values:
       permalink: /:basename:output_ext
 
+collections:
+  cheatsheets:
+    output: true
+    permalink: /cheatsheets/:basename:output_ext
+
 include:
   - _pages
 
