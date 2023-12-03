@@ -11,7 +11,7 @@ url: "http://0x4rs3nic.github.io" # The base hostname & protocol for your site, 
 # Author Settings
 author:
   name: 0x4rs3nic
-  avatar: '/images/fire.gif'
+  avatar: '/images/1_5L7l_i6owtut5Ed9xMmIOw (1).jpg'
 
 
 #-------------------------------
@@ -19,7 +19,7 @@ author:
 hero:
   title: 0x4rs3nic
   description: Security Engineer.
-  image: '/images/1_5L7l_i6owtut5Ed9xMmIOw (1).jpg'
+  image: '/images/fire.gif'
 
 
 #-------------------------------
