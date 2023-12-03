@@ -132,6 +132,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 {% highlight markdown %}
   <div class="gallery-box">
     <div class="gallery">
+      {% raw %}
       <img src="/images/501.jpg">
       <img src="/images/901.jpg">
       <img src="/images/509.jpg">
@@ -141,6 +142,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
       <img src="/images/517.jpg">
       <img src="/images/519.jpg">
       <img src="/images/521.jpg">
+      {% endraw %}
     </div>
     <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
   </div>
@@ -157,11 +159,15 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 ***
 
 ## Youtube Embed
-
+{% raw %}
 <p><iframe src="https://www.youtube.com/embed/Hd1_EXhr_fg" frameborder="0" allowfullscreen></iframe></p>
+{% endraw %}
 
 {% highlight html %}
+{% raw %}
+
   <iframe src="https://www.youtube.com/embed/Hd1_EXhr_fg" frameborder="0" allowfullscreen></iframe>
+{% endraw %}
 {% endhighlight %}
 
 ## Vimeo Embed
