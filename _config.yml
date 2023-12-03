@@ -67,7 +67,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jekyll-toc
-	
+
 # TOC Settings
 toc:
  min_level: 1
