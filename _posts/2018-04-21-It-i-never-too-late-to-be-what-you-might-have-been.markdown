@@ -27,3 +27,36 @@ Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est i
 Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine.
 
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.
+
+{% raw %}
+  <div class="gallery-box">
+    <div class="gallery">
+      
+      <img src="/images/501.jpg">
+      <img src="/images/901.jpg">
+      <img src="/images/509.jpg">
+      <img src="/images/511.jpg">
+      <img src="/images/520.jpg">
+      <img src="/images/516.jpg">
+      <img src="/images/517.jpg">
+      <img src="/images/519.jpg">
+      <img src="/images/521.jpg">
+      
+    </div>
+    <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
+  </div>
+{% endraw %}
+
+```
+  $('.top').click(function () {
+    $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
+  });
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > $(window).height()) {
+      $('.top').addClass("top-active");
+    } else {
+      $('.top').removeClass("top-active");
+    };
+  });
+```
+  
