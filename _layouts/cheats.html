@@ -32,7 +32,23 @@ layout: default
           <h2 class="post__title">{{page.title}}</h2>
         
           <div class="post__bottom">
+        <div class="post__author">
+              <a href="{{site.baseurl}}/about/" aria-label="{{site.author.name}}"><img class="post__author-image"
+                  src="{{site.baseurl}}{{site.author.avatar}}" alt="{{site.author.name}}'s Picture"></a>
+            </div>
         
+            <div class="post__bottom-meta">
+              <a href="{{site.baseurl}}/about/" class="post__author-link">{{site.author.name}}</a>
+              {% if page.tags.size >= 1 %}
+              <span>in</span>
+              <span class="post-tags">
+                {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tag">{{ tag }}</a>
+                {% endfor %}
+              </span>
+              {% endif %}
+            </div>
+          </div>
             
         
             
