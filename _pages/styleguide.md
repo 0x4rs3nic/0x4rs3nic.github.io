@@ -114,6 +114,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 
 ## Images
 
+{% raw %}
 <div class="gallery-box">
   <div class="gallery">
     <img src="/images/501.jpg">
@@ -128,7 +129,9 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
+{% endraw %}
 
+{% raw %}
 {% highlight markdown %}
   <div class="gallery-box">
     <div class="gallery">
@@ -147,6 +150,7 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
     <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
   </div>
 {% endhighlight %}
+{% endraw %}
 
 ![]({{site.baseurl}}/images/140.jpg)
 *Minimalism*
@@ -159,11 +163,13 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 ***
 
 ## Youtube Embed
+
 {% raw %}
 <p><iframe src="https://www.youtube.com/embed/Hd1_EXhr_fg" frameborder="0" allowfullscreen></iframe></p>
 {% endraw %}
 
 {% highlight html %}
+
 {% raw %}
 
   <iframe src="https://www.youtube.com/embed/Hd1_EXhr_fg" frameborder="0" allowfullscreen></iframe>
