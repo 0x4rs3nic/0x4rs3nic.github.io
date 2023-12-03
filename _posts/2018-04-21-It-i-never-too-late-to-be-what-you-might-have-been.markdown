@@ -28,11 +28,11 @@ Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat e
 
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.
 
-{% capture my_code %}
+
   {% raw %}
     <div class="gallery-box">
       <div class="gallery">
-        <img src="/images/501.jpg">
+        ![Fresh vegetables]({{site.baseurl}}/images/615.jpg)
         <img src="/images/901.jpg">
         <img src="/images/509.jpg">
         <img src="/images/511.jpg">
@@ -45,8 +45,7 @@ Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu 
       <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
     </div>
   {% endraw %}
-{% endcapture %}
-{{ my_code | markdownify }}
+
 
 
 {% highlight js %}
