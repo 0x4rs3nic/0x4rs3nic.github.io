@@ -4,7 +4,7 @@ title: 0x4rs3nic
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Security Engineer.
 baseurl: "" # The subpath of your site, e.g. /blog
-url: "http://0x4rs3nic.github.io" # The base hostname & protocol for your site, e.g. http://example.com
+url: "https://0x4rs3nic.netlify.app" # The base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
