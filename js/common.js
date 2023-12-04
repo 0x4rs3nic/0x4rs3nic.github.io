@@ -69,7 +69,7 @@ $(document).ready(function() {
   SimpleJekyllSearch({
     searchInput: document.getElementById("js-search-input"),
     resultsContainer: document.getElementById("js-results-container"),
-    json: "https://0x4rs3nic.github.io/search.json",
+    json: "https://0x4rs3nic.netlify.app/search.json",
     searchResultTemplate: '{article}',
     noResultsText: '<li class="no-results"><h3>No results found</h3></li>'
   });
