@@ -36,8 +36,11 @@ layout: default
         <div class="row grid">
           {% if site.posts.size > 0 %}
             {% for post in paginator.posts %}
+          {% if post.cheats != true %}
+
               {% include article-content.html %}
-            {% endfor %}
+{% endif %}          
+  {% endfor %}
           {% endif %}
         </div>
       </div>

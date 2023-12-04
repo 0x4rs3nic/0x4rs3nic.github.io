@@ -36,7 +36,6 @@ layout: default
             <div class="post__bottom-meta">
               
               {% if page.tags.size >= 1 %}
-              <span>in</span>
               <span class="post-tags">
                 {% for tag in page.tags %}
                 <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post__tag">{{ tag }}</a>
@@ -52,13 +51,47 @@ layout: default
     </div>
   </div>
 </div>
-{% toc %}
+
 
 <!-- begin post -->
 <div class="container">
+<style>
+.toc__list:before {
+ content: "Table Of Contents";
+ font-weight: bold;
+ font-size: 1.5rem;
+}
+
+.toc__list {
+ border: 2px;
+ border-radius: 4px;
+ line-height: 1.8rem;
+ padding: 1rem 1.5rem;
+ font-weight: 600;
+}
+
+.toc__sublist li {
+ padding-left: 1.25rem;
+}
+
+.toc-h2:first-child {
+ margin-top: 1rem;
+}  
+
+#toc a {
+ color: #BE185D;
+ text-decoration: underline;
+}
+
+#toc a:hover {
+ color: #9D174D;
+}
+</style>
+ 
   <article class="post animate">
 
     <div class="post__content">
+   {% toc %}
       {{ content }}
     </div>
 

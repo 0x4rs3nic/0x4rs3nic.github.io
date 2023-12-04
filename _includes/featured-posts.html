@@ -14,6 +14,7 @@
           <div class="row">
             {% for post in site.posts %}
             {% if post.featured == true %}
+            {% if post.cheats != true %}
             <div class="article col col-4 col-d-6 col-t-12 animate">
 
               <div class="article__inner">
@@ -51,24 +52,10 @@
 
                   <div class="article__bottom">
 
-                    {% if site.author.avatar %}
-                    <div class="article__author">
-                      <a href="{{site.baseurl}}/about/" aria-label="{{site.author.name}}"><img class="article__author-image lazy" data-src="{{site.baseurl}}{{site.author.avatar}}" alt="{{site.author.name}}'s Picture"></a>
-                    </div>
-                    {% endif %}
+                    
 
                     <div class="article__bottom-meta">
-                      {% if site.author.name %}
-                        <a href="{{site.baseurl}}/about/" class="article__author-link">{{site.author.name}}</a>
-                      {% endif %}
-                      {% if post.tags.size >= 1 %}
-                      <span>in</span>
-                      <span class="article-tags">
-                        {% for tag in post.tags %}
-                          <a href="{{ site.baseurl }}/tag/{{ tag }}" class="article__tag">{{ tag }}</a>
-                        {% endfor %}
-                      </span>
-                      {% endif %}
+                      
                     </div>
 
                   </div>
@@ -76,6 +63,7 @@
                 </div>
               </div>
             </div>
+            {% endif %}
             {% endif %}
             {% endfor %}
           </div>

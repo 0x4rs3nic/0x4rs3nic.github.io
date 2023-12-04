@@ -90,10 +90,6 @@ defaults:
       permalink: /:basename:output_ext
       toc: true
 
-collections:
-  cheatsheets:
-    output: true
-    permalink: /_cheatsheets/:path/
 
 include:
   - _pages
