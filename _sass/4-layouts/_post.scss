@@ -37,7 +37,6 @@
 }
 
 .post-image {
-  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
@@ -47,8 +46,6 @@
 
 .image-box {
   position: relative;
-  padding-top: 90%;
-  min-height: 280px;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 5px 10px 0px rgba(0,0,0,.15);
